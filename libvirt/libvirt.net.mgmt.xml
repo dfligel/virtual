@@ -1,0 +1,8 @@
+<network>
+  <name>mgmt</name>
+  <uuid>8711ea22-4ca1-440b-a7b4-8bd793b5d991</uuid>
+  <forward mode='bridge'/>
+  <bridge name='br0'/>
+  <virtualport type='openvswitch'/>
+</network>
+

@@ -1,0 +1,38 @@
+<network>
+  <name>ovs-network</name>
+  <uuid>c07cb59d-81ae-4d07-862a-b0490d575f91</uuid>
+  <forward mode='bridge'/>
+  <bridge name='trunktest'/>
+  <virtualport type='openvswitch'/>
+  <portgroup name='vlan-100' default='yes'>
+  </portgroup>
+  <portgroup name='vlan-101'>
+    <vlan>
+      <tag id='101'/>
+    </vlan>
+  </portgroup>
+  <portgroup name='vlan-102'>
+    <vlan>
+      <tag id='102'/>
+    </vlan>
+  </portgroup>
+  <portgroup name='vlan-103'>
+    <vlan>
+      <tag id='103'/>
+    </vlan>
+  </portgroup>
+  <portgroup name='vlan-104'>
+    <vlan>
+      <tag id='104'/>
+    </vlan>
+  </portgroup>
+  <portgroup name='vlan-all'>
+    <vlan trunk='yes'>
+      <tag id='101'/>
+      <tag id='102'/>
+      <tag id='103'/>
+      <tag id='104'/>
+    </vlan>
+  </portgroup>
+</network>
+

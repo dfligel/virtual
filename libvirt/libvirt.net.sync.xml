@@ -1,0 +1,8 @@
+<network>
+  <name>sync</name>
+  <uuid>1ebbd1db-b50b-4fa4-81a7-fa3040228222</uuid>
+  <forward mode='bridge'/>
+  <bridge name='sync'/>
+  <virtualport type='openvswitch'/>
+</network>
+

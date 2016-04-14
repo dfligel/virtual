@@ -1,0 +1,8 @@
+<network>
+  <name>wan</name>
+  <uuid>6fe46387-8483-4d94-9e1e-e50ebc983c73</uuid>
+  <forward mode='bridge'/>
+  <bridge name='br-ex'/>
+  <virtualport type='openvswitch'/>
+</network>
+
