@@ -1,0 +1,43 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# mgmt primary network interface
+auto eht0
+iface eht0 inet loopback
+
+# Vm-Nat interface
+auto eth1
+iface eth1 inet loopback
+
+# Vmnen11 - VLAN101
+auto eth2
+iface eth2 inet loopback
+
+# Vmnet12 - VLAN102
+auto eth3
+iface eth3 inet loopback
+
+# Vmnet13 - VLAN103
+auto eth4
+iface eth4 inet loopback
+
+# Vmnet14 - VLAN104
+auto eth5
+iface eth5 inet loopback
+
+#OVS Bridge auto (eth0 attachhed)
+auto mgmt
+iface mgmt inet static
+address 192.168.99.99
+netmask 255.255.255.0
+broadcast 192.168.99.255
+
+auto br-ex
+iface br-ex inet dhcp
+
