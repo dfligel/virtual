@@ -1,0 +1,342 @@
+    1  ip a
+    2  sudo apt-get update && sudo apt-get dist-upgrade 
+    3  sudo apt-get dist-upgrade 
+    4  sudo apt-get install byobu openssh-server 
+    5  sudo reboot
+    6  ps -axf
+    7  top
+    8  free -h
+    9  sudo halt
+   10  egrep -c '(VMX|SVM)' /proc/cpuinfo
+   11  cat /sys/hypervisor
+   12  cat /sys/hypervisor/
+   13  ls /sys/hypervisor/
+   14  cat /proc/cpuinfo 
+   15  cat /proc/cpuinfo  | grep vmx
+   16  sudo apt-get install openvswitch-common openvswitch-switch vlan
+   17  ip ad
+   18  ls /etc/udev/rules.d/
+   19  ls -alF /etc/udev/rules.d/
+   20  cat /lib/udev/rules.d/80-net-setup-link.rules 
+   21  ip addr
+   22  ip addr
+   23  hisotry
+   24  history
+   25  sudo cp /lib/udev/rules.d/80-net-setup-link.rules /etc/udev/rules.d/80-net-setup-link.rules
+   26  sudo vi /etc/udev/rules.d/80-net-setup-link.rules 
+   27  cat /lib/udev/rules.d/80-networking.rules 
+   28  cat/etc/udev/rules.d/
+   29  cat /lib/udev/rules.d/70-uaccess.rules 
+   30  ls
+   31  ls -alF
+   32  cd /etc/
+   33  cd udev/rules.d/
+   34  ls
+   35  ls -alF
+   36  mv 80-net-setup-link.rules 70-my-netname.rules
+   37  sudo mv 80-net-setup-link.rules 70-my-netname.rules
+   38  vi 70-my-netname.rules 
+   39  sudo vi 70-my-netname.rules 
+   40  sudo reboot
+   41  byobu
+   42  ip addr
+   43  vi /etc/network/interfaces
+   44  sudo vi /etc/network/interfaces
+   45  sudo service networking restart
+   46  ip a
+   47  sudo ovs-vsctl show
+   48  sudo ovs-vsctl add-port br_mgmt eth1
+   49  sudo ovs-vsctl add-port br_101 eth2
+   50  sudo ovs-vsctl add-port br_102 eth3
+   51  sudo vi /etc/network/interfaces
+   52  sudo service networking restart
+   53  ip a
+   54  sudo reboot
+   55  ps -axf | grep open
+   56  ps -axf | grep ovs
+   57  sudo ovs-vsctl show
+   58  sudo ovs-vsctl add br_ex eth0
+   59  sudo ovs-vsctl add-br br_ex
+   60  sudo ovs-vsctl add-br br_mgmt
+   61  sudo ovs-vsctl add-br br_101
+   62  sudo ovs-vsctl add-br br_102
+   63  sudo ovs-vsctl add-port br_ex eth0
+   64  sudo vi 70-my-netname.rules 
+   65  sudo vi /etc/udev/rules.d/70-my-netname.rules 
+   66  byobu
+   67  ip a
+   68  sudo ovs-vsctl show
+   69  ip a
+   70  sudo vi /etc/network/interfaces
+   71  ip a
+   72  sudo service networking restart
+   73  ip a
+   74  sudo service networking restart
+   75  sudo vi /etc/network/interfaces
+   76  reboot
+   77  sudo reboot
+   78  ip a
+   79  sudo vi /etc/network/interfaces
+   80  ip a
+   81  sudo vi /etc/network/interfaces
+   82  sudo service networking restart
+   83  ip ad
+   84  man interfaces
+   85  cat /usr/share/doc/ifupdown/examples/network-interfaces.gz 
+   86  clear
+   87  clear
+   88  ls
+   89  pwd
+   90  mkdir examples
+   91  cd examples/
+   92  tar -zxvf /usr/share/doc/ifupdown/examples/network-interfaces.gz 
+   93  unzip /usr/share/doc/ifupdown/examples/network-interfaces.gz 
+   94  sudo apt-get install unzip
+   95  p /usr/share/doc/ifupdown/examples/network-interfaces.gz 
+   96  unzip /usr/share/doc/ifupdown/examples/network-interfaces.gz 
+   97  sudo apt-get install unzip
+   98  ip a
+   99  reboot
+  100  sudo reboot
+  101  ip a
+  102  sudo ovs-vsctl --help
+  103  sudo ovs-vsctl show
+  104  ip addr
+  105  sudo ovs-vsctl --help
+  106  sudo ovs-vsctl --listports
+  107  sudo ovs-vsctl --list-ports
+  108  sudo ovs-vsctl --list-ports br_ex
+  109  sudo ovs-vsctl--list-ports br_ex
+  110  sudo ovs-vsctl --qlist-ports br_ex
+  111  sudo ovs-vsctl list-ports br_ex
+  112  sudo ovs-vsctl del-port br_ex eth-
+  113  sudo ovs-vsctl del-port br_ex eth0
+  114  sudo ovs-vsctl add-port br_ex eth0 --set interface eth0 type=internal
+  115  sudo ovs-vsctl add-port br_ex eth0 -- set interface eth0 type=internal
+  116  sudo ovs-vsctl list-ports br_ex
+  117  sudo ovs-vsctl --help | grep set
+  118  sudo ovs-vsctl --help | grep internal
+  119  man ovs-vsctl
+  120  sudo ovs-vsctl del-port br_ex eth0
+  121  sudo ovs-vsctl add-port br_ex eth0 -- set interface eth0 type=internal
+  122  sudo ovs-vswitchd log
+  123  sudo ovs-vsctl show
+  124  sudo reboot
+  125  byobu
+  126  sudo ovs-vsctl show
+  127  ip a
+  128  vi /etc/network/interfaces
+  129  sudo vi /etc/network/interfaces
+  130  sudo ovs-vsctl del-port br_ex eth0
+  131  sudo ovs-vsctl show
+  132  sudo ovs-vsctl add-port br_ex eth0
+  133  ip ad
+  134  sudo shutdown -h now
+  135  ip a
+  136  df -h
+  137  du -h
+  138  free -h
+  139  netstat -an
+  140  sudo netstat -antp
+  141  sudo apt-get install xubuntu-core 
+  142  ls
+  143  sudo apt-get install lubuntu-core 
+  144  sudo apt-get install lubuntu-core --no-install-recommends
+  145  sudo apt-get reboot
+  146  sudo apt-get install midori xombrero
+  147  sudo reboot
+  148  sudo apt-get install lubuntu-core 
+  149  sudo halt
+  150  byoby
+  151  git
+  152  pwd
+  153  git clone git://github.com/retspen/webvirtmgr.git
+  154  cd webvirtmgr/
+  155  ls
+  156  sudo pip install -r requirements.txt 
+  157  ./manage.py syncdv
+  158  ./manage.py syncdb
+  159  ./manage.py collecstatic
+  160  ./manage.py collectstatic
+  161  ./manage.py createsuperuser
+  162  ls
+  163  cd ..
+  164  ls
+  165  ls -alf
+  166  ls /var/www/
+  167  sudo mv webvirtmgr /var/www/
+  168  cd /var/www/
+  169  ls
+  170  cd webvirtmgr/
+  171  ls
+  172  cd webvirtmgr/
+  173  ls
+  174  cd ..
+  175  ls
+  176  find -name . conf
+  177  find -name ./. conf
+  178  find -name ./* conf
+  179  find -name * conf
+  180  find * conf
+  181  cd conf
+  182  ls
+  183  cd ..
+  184  find * conf
+  185  find * conf | grep webvirtmgr
+  186  find * conf | grep webvirtmgr.conf
+  187  sudo vi /etc/nginx/conf.d/webvirtmgr.conf
+  188  sudo vi /etc/nginx/nginx.conf 
+  189  sudo service nginx restart
+  190  sudo vi /etc/nginx/nginx.conf 
+  191  sudo vi /etc/nginx/conf.d/webvirtmgr.conf
+  192  sudo service nginx restart
+  193  sudo netstat -antp
+  194  sudo service nginx restart
+  195  sudo service nginx start
+  196  systemctl status nginx.service 
+  197  sudo ls /etc/nginx/conf.d/
+  198  sudo vi /etc/nginx/sites-enabled/default 
+  199  sudo service nginx start
+  200  sudo netstat -atnp
+  201  sudo service novnc stop
+  202  sudo service supervisor stop
+  203  sudo service supervisor start
+  204  ps -ax
+  205  sudo netstat -atnp
+  206  sudo vi /etc/supervisor/conf.d/webvirtmgr.conf
+  207  sudo service supervisor stop
+  208  sudo service supervisor start
+  209  sudo service nginx restart
+  210  sudo vi /etc/nginx/conf.d/webvirtmgr.conf
+  211  cat /var/www/webvirtmgr/webvirtmgr
+  212  ls /var/www/webvirtmgr/webvirtmgr
+  213  sudo netstat -an | grep LIST
+  214  sudo vi /etc/nginx/nginx.conf 
+  215  cd /etc/nginx/
+  216  ls
+  217  cd sites-enabled/
+  218  ls
+  219  vi default 
+  220  ls -alF
+  221  vi /etc/nginx/sites-available/default 
+  222  vi /etc/nginx/conf.d/webvirtmgr.conf 
+  223  cat /var/log/nginx/access.log 
+  224  cat /var/log/nginx/error.log 
+  225  sudo reboot
+  226  ip a
+  227  ls
+  228  ls -alf
+  229  sudo apt-get install virsh
+  230  sudo apt-get install virt-manager 
+  231  sudo apt-get update
+  232  sudo apt-get install virt-manager 
+  233  libvirtd --help
+  234  libvirtd --version
+  235  uname -r
+  236  qemu --version
+  237  sudo apt-get install qemu qemu-kvm qemu-efi 
+  238  qemu --version
+  239  qemu-img --version
+  240  sudo apt-get install git python-pip python-libvirt python-libxml2 novnc supervisor nginx 
+  241  sudo apt-get install lxterminal
+  242  ip a
+  243  sudo halt
+  244  history | grep apt
+  245  sudo shutdown -h now
+  246  history 
+  247  virt-manager --version
+  248  virsh --list
+  249  virsh list --all
+  250  sudo halt
+  251  sudo apt-get install syslog-ng
+  252  sudo vi /etc/syslog-ng/syslog-ng.conf 
+  253  sudo touvh /var/log/fortinet.log
+  254  sudo touch /var/log/fortinet.log
+  255  sudo vi /etc/syslog-ng/syslog-ng.conf 
+  256  sudo service syslog-ng restart
+  257  sudo netstat -antp
+  258  sudo netstat -an
+  259  sudo netstat -an | grep 514
+  260  ip a
+  261  end
+  262  exit
+  263  ip a
+  264  sudo service networking restart
+  265  ip a
+  266  sudo dhclient br_ex
+  267  sudo reboot
+  268  ip a
+  269  sudo service networking restart
+  270  ip a
+  271  sudo netstat -an | grep 514
+  272  ls
+  273  sudo su -
+  274  ip a
+  275  ls
+  276  pwd
+  277  git clone https://github.com/dfligel/virtual
+  278  ping www.google.com
+  279  ip a
+  280  sudo dhclient br_ex
+  281  ip a
+  282  ping www.google.com
+  283  git clone https://github.com/dfligel/virtual
+  284  ls
+  285  cd virtual/
+  286  ls
+  287  ls ovs.show 
+  288  less ovs.show 
+  289  ls -alF
+  290  history | grep udev
+  291  cd etc/
+  292  mkdir udev
+  293  ls
+  294  cd udev/
+  295  cp /etc/udev/rules.d/70-my-netname.rules .
+  296  ls
+  297  ls -alF
+  298  less 70-my-netname.rules 
+  299  ls
+  300  ls -alF
+  301  ls
+  302  cd ..
+  303  ls
+  304  cd network/
+  305  ls
+  306  ls -alF
+  307  cat interfaces 
+  308  ls
+  309  cd ..
+  310  ls
+  311  cd ..
+  312  ls
+  313  ls -alF
+  314  history | grep etc
+  315  history | grep etc | less
+  316  history less
+  317  history | less
+  318  ls
+  319  git status
+  320  cd ..
+  321  ls
+  322  cd virtual/
+  323  git statu
+  324  git status
+  325  git add etc/udev/
+  326  git status
+  327  git --help
+  328  git push -u origin master
+  329  git status
+  330  commit -m "added udev rule"
+  331  git commit -m "added udev rule"
+  332  git config --global user.email "dfligel@gmail.com"
+  333  git config --global user.name "dfligel"
+  334  git commit -m "added udev rule"
+  335  git push -u origin master
+  336  git statu
+  337  git status
+  338  ls
+  339  mkdir histories
+  340  mkdir histories/kvm2
+  341  cd histories/kvm2/
+  342  history > history.txt
