@@ -1,0 +1,16 @@
+name: R1
+config: {}
+description: ""
+devices:
+  eth0:
+    host_name: r1_eth0
+    name: eth0
+    nictype: bridged
+    parent: v101
+    type: nic
+  eth1:
+    host_name: r1_eth1
+    name: eth1
+    nictype: bridged
+    parent: v201
+    type: nic
